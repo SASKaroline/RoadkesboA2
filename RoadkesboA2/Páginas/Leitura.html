@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitura</title>
+    <link rel="stylesheet" href="../Estilos/StyleLeitu.css">
+    <link rel="icon" type="image/x-icon" href="../Imagens/Favicon.png">
+</head>
+<body>
+    <header>
+        <a href="../Index.html" class="logo"><i class='bx bx-book-reader'></i>Roadkesbo</a>
+        <!-- icone menu -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- lista nav -->
+        <ul class="navbar">
+            <li><a href="../Index.html">Home</a></li>
+            <li><a href="../Páginas/Biblioteca.html">Biblioteca</a></li>
+            <li><a href="../Páginas/Anotacoes.html">Anotações</a></li>
+            <li><a href="../Páginas/Sobre.html">Sobre</a></li>
+            <li><a href="../Páginas/Leitura.html" class="leitu-active">Leitura</a></li>
+            <li><a href="../Páginas/Local.html">Localização</a></li>
+        </ul>
+        <!-- Perfil -->
+        <div class="perfil">
+            <img src="../Imagens/Roadkesbo.jpg" alt="">
+            <span>SAS_Karol</span>
+        </div>
+    </header>
+    <!-- Continuar lendo -->
+    <section class="ContLendo" id="ContLendo">
+        <h2 class="heading">Continuar lendo</h2>
+        <div class="livros-container swiper">
+            <div class="swiper-wrapper">
+            <!-- Box 1 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/OPC.jpg" alt="">
+                </div>
+                <h3>O Príncipe Cruel</h3>
+                <span>Holly Black</span>
+            </div>
+            
+            <!-- Box 2 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/CLH.jpg" alt="">
+                </div>
+                <h3>O Clube do Livro dos Homens</h3>
+                <span>Lissa Kai Adams</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/UDPND.jpg" alt="">
+                </div>
+                <h3>Um desejo para nós dois</h3>
+                <span>Tille Cole</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/Verg.jpg" alt="">
+                </div>
+                <h3>Vergonha</h3>
+                <span>Britainny C. Cherry</span>
+            </div>
+            <!-- Box 5 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/Est-me.jpg" alt="">
+                </div>
+                <h3>Estilhaça-me</h3>
+                <span>Tahereh Mafi</span> 
+            </div>
+            <!-- Box 6 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/PJ.jpg" alt="">
+                </div>
+                <h3>Percy Jackson | O Ladrão de Raios</h3>
+                <span>Rick Riordan</span>
+            </div>
+            <!-- Box 7 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/MrRom.jpg" alt="">
+                </div>
+                <h3>Mr. Romance</h3>
+                <span>Leisa Rayven</span>
+            </div>
+            <!-- Box 8 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/QG.jpg" alt="">
+                </div>
+                <h3>Quebrando o Gelo</h3>
+                <span>Hannah Grace</span>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    
+    <div class="anot-heading" id="metas">
+        <p>METAS</p>
+    </div>
+    <section class="anots">
+        <div class="anot-box-container">
+            <div class="box-top">
+                <div class="livro">
+                    <div class="livro-nome">
+                        <strong>Meta</strong>
+                        <span>Diária</span>
+                    </div>
+                </div>
+                <form action="../Páginas/Conta.html" method="post" enctype="multipart/form-data">
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="number">Minutos lido</label>
+                            <input id="minlid" type="number" name="minlid" placeholder="xxx" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="number">Livros lidos</label>
+                            <input id="livrlid" type="number" name="livrlid" placeholder="xx" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="number">Páginas lidas</label>
+                            <input id="paglid" type="number" name="paglid" placeholder="xxx" required>
+                        </div>
+    
+                    </div>
+    
+                    <div class="continue-button">
+                        <button><a href="../Páginas/Conta.html">Salvar</a> </button>
+                    </div>
+            </div>
+            </form>
+        </div>
+        <div class="anot-box-container">
+            <div class="box-top">
+                <div class="livro">
+                    <div class="livro-nome">
+                        <strong>Meta</strong>
+                        <span>Anual</span>
+                    </div>
+                </div>
+                <form action="../Páginas/Conta.html" method="post" enctype="multipart/form-data">
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="number">Minutos lido</label>
+                        <input id="minlid" type="number" name="minlid" placeholder="xx:xx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Livros lidos</label>
+                        <input id="livrlid" type="number" name="livrlid" placeholder="xx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Páginas lidas</label>
+                        <input id="paglid" type="number" name="paglid" placeholder="xxx" required>
+                    </div>
+
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="../Páginas/Conta.html">Salvar</a> </button>
+                </div>
+            </div>
+            </form>
+        </div>
+    
+    </section>
+    <!-- Livros -->
+    <section class="livrosPop" id="lidosano">
+        <h2 class="heading">Livros lidos no ano</h2>
+        <!-- Livros Container -->
+        <div class="livrosPop-container">
+        <!-- Box 1 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/OPC.jpg" alt="">
+            </div>
+            <h3>O Príncipe Cruel</h3>
+            <span>Holly Black</span>
+        </div>
+        <!-- Box 2 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/Verg.jpg" alt="">
+                </div>
+            <h3>Vergonha</h3>
+            <span>Britainny C. Cherry</span>
+        </div>
+        <!-- Box 3 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/ARN.jpg" alt="">
+            </div>
+            <h3>A Rainha do Nada</h3>
+            <span>Holly Black</span>
+        </div>
+        <!-- Box 4 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/TatAmor.png" alt="">
+            </div>
+            <h3>Táticas do Amor</h3>
+            <span>Sarah Adams</span>
+        </div>
+        <!-- Box 5 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/Est-me.jpg" alt="">
+            </div>
+            <h3>Estilhaça-me</h3>
+            <span>Tahereh Mafi</span>
+        </div>
+        <!-- Box 6 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/UDPND.jpg" alt="">
+            </div>
+            <h3>Um desejo para nós dois</h3>
+            <span>Tille Cole</span>
+        </div>
+        <!-- Box 7 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/Frag-me.jpg" alt="">
+            </div>
+            <h3>Fragmenta-me</h3>
+            <span>Tahereh Mafi</span>
+        </div>
+        <!-- Box 8 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/RomVer.jpg" alt="">
+            </div>
+            <h3>Romance de Verão</h3>
+            <span>Emily Henry</span>
+        </div>
+        <!-- Box 9 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/HP.jpg" alt="">
+            </div>
+            <h3>Happy Potter | A pedra Filosofal</h3>
+            <span>J.K. Rowling</span>
+        </div>
+        <!-- Box 10 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/AHDA.jpg" alt="">
+            </div>
+            <h3>A Hipótese do Amor</h3>
+            <span>Ali Hazelwood</span>
+        </div>
+    </div>
+    </section>
+<!-- footer -->
+<section class="footer" id="footer">
+    <div class="footer-box">
+        <a href="../Index.html" class="logo"><i class='bx bx-book-reader'></i>Roadkesbo</a>
+            <p>Melhore seu habito de leitura aqui</p>
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://x.com/ "><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h2>Menu</h2>
+            <a href="../Index.html">Home</a>
+            <a href="../Páginas/Biblioteca.html">Biblioteca</a>
+            <a href="../Páginas/Anotacoes.html">Anotações</a>
+            <a href="../Páginas/Sobre.html">Sobre</a>
+            <a href="../Páginas/Leitura.html">Leitura</a>
+            <a href="../Páginas/Local.html">Localização</a>
+        </div>
+    <div class="footer-box">
+        <h2>Leitura</h2>
+        <a href="#ContLendo">Continuar lendo</a>
+        <a href="#metas">Metas</a>
+        <a href="#lidosano">Lidos no ano</a>
+    </div>
+    <div class="footer-box">
+        <h2>Email</h2>
+        <p>Mande sua dúvida aqui</p>
+        <form action="">
+            <i class='bx bxs-envelope' ></i>
+            <input type="email" name="" id="" placeholder="Enviar emal">
+            <i class='bx bx-arrow-back'></i>
+        </form>
+    </div>
+</section>
+
+<!-- Copyright -->
+<div class="copyright">
+    <p>Roadkesbo © 2024 all rights reserved</p>
+</div>
+
+<!-- Swiper js -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Link js -->
+<script src="../JS/BiblioJS.js"></script>
+</body>
+</html>

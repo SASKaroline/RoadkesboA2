@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="../Estilos/StyleBiblio.css">
+    <link rel="icon" type="image/x-icon" href="../Imagens/Favicon.png">
+</head>
+<body>
+    <header>
+        <a href="../Index.html" class="logo"><i class='bx bx-book-reader'></i>Roadkesbo</a>
+        <!-- icone menu -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- lista nav -->
+        <ul class="navbar">
+            <li><a href="../Index.html">Home</a></li>
+            <li><a href="../Páginas/Biblioteca.html" class="biblioteca-active">Biblioteca</a></li>
+            <li><a href="../Páginas/Anotacoes.html">Anotações</a></li>
+            <li><a href="../Páginas/Sobre.html">Sobre</a></li>
+            <li><a href="../Páginas/Leitura.html">Leitura</a></li>
+            <li><a href="../Páginas/Local.html">Localização</a></li>
+        </ul>
+        <!-- Perfil -->
+        <div class="perfil">
+            <img src="../Imagens/Roadkesbo.jpg" alt="">
+            <span>SAS_Karol</span>
+        </div>
+    </header>
+    <!-- biblioteca -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>Os mais procurados da</span>
+                    <h1>Semana</h1>
+                    <a href="#livrosPop" class="btn">Acessar<i class='bx bx-right-arrow-alt' ></i></a>
+                </div>
+            <img src="../Imagens/RoadkesboConta.jpg" alt="">
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide container">
+                    <div class="home-text">
+                        <span>Se apaixone com os</span>
+                        <h1>Romances</h1>
+                        <a href="#livrosRom" class="btn">Acessar<i class='bx bx-right-arrow-alt' ></i></a>
+                    </div>
+                <img src="../Imagens/Romance.png" alt="">
+            </div>
+            <!-- Slide 3 -->
+                <div class="swiper-slide container">
+                    <div class="home-text">
+                        <span>Fuja da realidade com</span>
+                        <h1>Fantasia</h1>
+                        <a href="#livrosFan" class="btn">Acessar<i class='bx bx-right-arrow-alt' ></i></a>
+                    </div>
+                <img src="../Imagens/Fantasia.png" alt="">
+            </div>
+        </div>
+        
+        <div class="swiper-button-next"><i class='bx bx-right-arrow-alt' undefined ></i></div>
+        <div class="swiper-button-prev"><i class='bx bx-left-arrow-alt'></i></div> 
+    </section>
+
+    <!-- Livros -->
+    <section class="livrosPop" id="livrosPop">
+        <h2 class="heading">Mais procurados da semana</h2>
+        <!-- Livros Container -->
+        <div class="livrosPop-container">
+        <!-- Box 1 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/OPC.jpg" alt="">
+            </div>
+            <h3>O Príncipe Cruel</h3>
+            <span>Holly Black</span>
+        </div>
+        <!-- Box 2 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/Verg.jpg" alt="">
+                </div>
+            <h3>Vergonha</h3>
+            <span>Britainny C. Cherry</span>
+        </div>
+        <!-- Box 3 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/ARN.jpg" alt="">
+            </div>
+            <h3>A Rainha do Nada</h3>
+            <span>Holly Black</span>
+        </div>
+        <!-- Box 4 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/TatAmor.png" alt="">
+            </div>
+            <h3>Táticas do Amor</h3>
+            <span>Sarah Adams</span>
+        </div>
+        <!-- Box 5 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/Est-me.jpg" alt="">
+            </div>
+            <h3>Estilhaça-me</h3>
+            <span>Tahereh Mafi</span>
+        </div>
+        <!-- Box 6 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/UDPND.jpg" alt="">
+            </div>
+            <h3>Um desejo para nós dois</h3>
+            <span>Tille Cole</span>
+        </div>
+        <!-- Box 7 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/Frag-me.jpg" alt="">
+            </div>
+            <h3>Fragmenta-me</h3>
+            <span>Tahereh Mafi</span>
+        </div>
+        <!-- Box 8 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/RomVer.jpg" alt="">
+            </div>
+            <h3>Romance de Verão</h3>
+            <span>Emily Henry</span>
+        </div>
+        <!-- Box 9 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/HP.jpg" alt="">
+            </div>
+            <h3>Happy Potter | A pedra Filosofal</h3>
+            <span>J.K. Rowling</span>
+        </div>
+        <!-- Box 10 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="../Imagens/AHDA.jpg" alt="">
+            </div>
+            <h3>A Hipótese do Amor</h3>
+            <span>Ali Hazelwood</span>
+        </div>
+    </div>
+    </section>
+    <!-- Romance -->
+    <section class="livrosRom" id="livrosRom">
+        <h2 class="heading">Romance</h2>
+        <div class="livros-container swiper">
+            <div class="swiper-wrapper">
+            <!-- Box 1 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/ARDA.jpg" alt="">
+                </div>
+                <h3>A Razão do Amor</h3>
+                <span>Ali Hazelwood</span>
+            </div>
+            
+            <!-- Box 2 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/BeijNeve.jpg" alt="">
+                </div>
+                <h3>O Beijo na Neve</h3>
+                <span>Babi A. Sette</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/CLH.jpg" alt="">
+                </div>
+                <h3>O Clube do Livro dos Homens</h3>
+                <span>Lissa Kai Adams</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/AHDA.jpg" alt="">
+                </div>
+                <h3>A Hipótese do Amor</h3>
+                <span>Ali Hazelwood</span>
+            </div>
+            <!-- Box 5 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/Verg.jpg" alt="">
+                </div>
+                <h3>Vergonha</h3>
+                <span>Britainny C. Cherry</span>
+            </div>
+            <!-- Box 6 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/UMFF.jpg" alt="">
+                </div>
+                <h3>Um Milhão de Finais Felizes</h3>
+                <span>Vitor Martins</span>
+            </div>
+            <!-- Box 7 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/TTOU.jpg" alt="">
+                </div>
+                <h3>The Two Of Us</h3>
+                <span>Taylor Torres</span>
+            </div>
+            <!-- Box 8 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/UDPND.jpg" alt="">
+                </div>
+                <h3>Um desejo para nós dois</h3>
+                <span>Tille Cole</span>
+            </div>
+            <!-- Box 9 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/teto-para-dois.jpg" alt="">
+                </div>
+                <h3>Teto Para Dois</h3>
+                <span>Beth O'leary</span>
+            </div>
+            <!-- Box 10 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/TatAmor.png" alt="">
+                </div>
+                <h3>Táticas do Amor</h3>
+                <span>Sarah Adams</span>
+            </div>
+            <!-- Box 11 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/RomVer.jpg" alt="">
+                </div>
+                <h3>Romance de Verão</h3>
+                <span>Emily Henry</span>
+            </div>
+            <!-- Box 12 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/MissRom.jpg" alt="">
+                </div>
+                <h3>Missão Romance</h3>
+                <span>Lissa Kai Adams</span>
+            </div>
+            <!-- Box 13 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/MrRom.jpg" alt="">
+                </div>
+                <h3>Mr. Romance</h3>
+                <span>Leisa Rayven</span>
+            </div>
+            <!-- Box 14 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/QG.jpg" alt="">
+                </div>
+                <h3>Quebrando o Gelo</h3>
+                <span>Hannah Grace</span>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <!-- Fantasia -->
+    <section class="livrosFan" id="livrosFan">
+        <h2 class="heading">Fantasia</h2>
+        <div class="livros-container swiper">
+            <div class="swiper-wrapper">
+            <!-- Box 1 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/OPC.jpg" alt="">
+                </div>
+                <h3>O Príncipe Cruel</h3>
+                <span>Holly Black</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                        <img src="../Imagens/ORP.jpg" alt="">
+                    </div>
+                <h3>O Rei Perverso</h3>
+                <span>Holly Black</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/ARN.jpg" alt="">
+                </div>
+                <h3>A Rainha do Nada</h3>
+                <span>Holly Black</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/OCMEF.jpg" alt="">
+                </div>
+                <h3>O Canto Mais Escuro da Floresta</h3>
+                <span>Holly Black</span>
+            </div>
+            <!-- Box 5 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/Est-me.jpg" alt="">
+                </div>
+                <h3>Estilhaça-me</h3>
+                <span>Tahereh Mafi</span>
+            </div>
+            <!-- Box 6 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/Lib-me.jpg" alt="">
+            </div>
+                <h3>Liberta-me</h3>
+                <span>Tahereh Mafi</span>
+            </div>
+            <!-- Box 7 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/Inc-me.jpg" alt="">
+                </div>
+                <h3>Incendeia-me</h3>
+                <span>Tahereh Mafi</span>
+            </div>
+            <!-- Box 8 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/HP.jpg" alt="">
+                </div>
+                <h3>Happy Potter | A pedra Filosofal</h3>
+                <span>J.K. Rowling</span>
+            </div>
+            <!-- Box 9 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/PJ.jpg" alt="">
+                </div>
+                <h3>Percy Jackson | O Ladrão de Raios</h3>
+                <span>Rick Riordan</span>
+            </div>
+            <!-- Box 10 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="../Imagens/Frag-me.jpg" alt="">
+                </div>
+                <h3>Fragmenta-me</h3>
+                <span>Tahereh Mafi</span>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <!-- footer -->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <a href="../Index.html" class="logo"><i class='bx bx-book-reader'></i>Roadkesbo</a>
+            <p>Melhore seu habito de leitura aqui</p>
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://x.com/ "><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h2>Menu</h2>
+            <a href="../Index.html">Home</a>
+            <a href="../Páginas/Biblioteca.html">Biblioteca</a>
+            <a href="../Páginas/Anotacoes.html">Anotações</a>
+            <a href="../Páginas/Sobre.html">Sobre</a>
+            <a href="../Páginas/Leitura.html">Leitura</a>
+            <a href="../Páginas/Local.html">Localização</a>
+        </div>
+        <div class="footer-box">
+            <h2>Leitura</h2>
+            <a href="#livrosPop">Procurados da semana</a>
+            <a href="#livrosRom">Romance</a>
+            <a href="#livrosFan">Fantasia</a>
+        </div>
+        <div class="footer-box">
+            <h2>Email</h2>
+            <p>Mande sua dúvida aqui</p>
+            <form action="">
+                <i class='bx bxs-envelope' ></i>
+                <input type="email" name="" id="" placeholder="Enviar emal">
+                <i class='bx bx-arrow-back'></i>
+            </form>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Roadkesbo © 2024 all rights reserved</p>
+    </div>
+
+    <!-- Swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Link js -->
+    <script src="../JS/BiblioJS.js"></script>
+</body>
+</html>
